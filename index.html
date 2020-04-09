@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>This is the first web page</title>
     <link rel="stylesheet" href="styles/master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
 
@@ -12,10 +13,10 @@
         <nav class="nav">
           <a href="#wrap" id="open">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27" enable-background="new 0 0 34 27" xml:space="preserve">
-    <rect fill="#FFFFFF" width="34" height="4"/>
-    <rect y="11" fill="#FFFFFF" width="34" height="4"/>
-    <rect y="23" fill="#FFFFFF" width="34" height="4"/>
-    </svg>
+              <rect fill="#FFFFFF" width="34" height="4"/>
+              <rect y="11" fill="#FFFFFF" width="34" height="4"/>
+              <rect y="23" fill="#FFFFFF" width="34" height="4"/>
+            </svg>
           </a>
           <a href="#" id="close">X</a>
           <h1><a href="#">APES WORLD</a></h1>
@@ -35,8 +36,22 @@
           <p>section 2</p>
         </section>
 
+        <section id="section03">
+          <p>section 3</p>
+        </section>
+
       </main>
     </div>
+
+
+    <script type="text/javascript">
+      $( document ).ready(function() {
+          console.log('Document ready...');
+          $('.section01, .section02, .section03').click(function() {
+              $('nav').removeClass('');
+          });
+      });
+    </script>
 
   </body>
 </html>
