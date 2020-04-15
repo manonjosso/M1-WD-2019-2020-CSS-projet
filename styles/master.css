@@ -7,7 +7,7 @@ section {
   min-height: 65vh;
 }
 
-#wrap {
+#container {
   font-family: 'Montserrat';
   font-size: 21px;
   line-height: 1.6;
@@ -17,11 +17,11 @@ section {
   transition: transform .4s cubic-bezier(.25, .1, .25, 1);
 }
 
-#wrap:not(:target) {
+#container:not(:target) {
   transform: translate3d(-335px, 0, 0);
 }
 
-#wrap:target {
+#container:target {
   transform: translate3d(0, 0, 0);
 }
 
@@ -33,12 +33,12 @@ section {
   margin-right: -30px;
 }
 
-#wrap:target #open,
-#wrap:not(:target) #close {
+#container:target #open,
+#container:not(:target) #close {
   display: none;
 }
 
-#wrap:target #open {
+#container:target #open {
   display: none;
 }
 
@@ -54,6 +54,8 @@ section {
   padding: 0 20px;
   display:inline-block;
   vertical-align:top;
+  position: relative;
+  z-index: 999;
 }
 
 .nav {
@@ -65,6 +67,7 @@ section {
   flex: 1;
   display:inline-block;
 }
+
 
 #container:target #backdrop{
   width: 100%;
