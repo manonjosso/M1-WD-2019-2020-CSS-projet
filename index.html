@@ -8,10 +8,10 @@
   </head>
   <body>
 
-    <div id="wrap">
+    <div id="container">
       <header class="header">
         <nav class="nav">
-          <a href="#wrap" id="open">
+          <a href="#container" id="open">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27" enable-background="new 0 0 34 27" xml:space="preserve">
               <rect fill="#FFFFFF" width="34" height="4"/>
               <rect y="11" fill="#FFFFFF" width="34" height="4"/>
@@ -24,7 +24,7 @@
           <a href="#section02">Go to section 2</a>
         </nav>
       </header>
-      <main class="main">
+      <main class="main" id="main">
 
         <h1>Hello World !</h1>
 
@@ -41,17 +41,9 @@
         </section>
 
       </main>
+      <a id="backdrop" href="#backdrop"></a>
+
     </div>
-
-
-    <script type="text/javascript">
-      $( document ).ready(function() {
-          console.log('Document ready...');
-          $('.section01, .section02, .section03').click(function() {
-              $('nav').removeClass('');
-          });
-      });
-    </script>
-
+    
   </body>
 </html>

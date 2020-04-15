@@ -65,3 +65,20 @@ section {
   flex: 1;
   display:inline-block;
 }
+
+#container:target #backdrop{
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: block;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 998;
+}
+
+#backdrop:target #container{
+  display:none;
+  transform: translate3d(-335px, 0, 0);
+}
