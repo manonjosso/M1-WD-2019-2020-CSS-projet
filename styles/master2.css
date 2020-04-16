@@ -3,7 +3,7 @@
 
 .return_btn{
   padding: 15px;
-  background-color: orange;
+  background-color: black;
   color: white;
   border-radius: 25px;
   border: none;
@@ -23,8 +23,9 @@
   grid-gap: 20px;
 }
 .box{
-  background: orange;
-  color: #fff;
+  background: white;
+  border: solid 2px orange;
+  color: orange;
   padding: 5%;
   height: 200px;
 }
