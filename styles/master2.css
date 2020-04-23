@@ -29,3 +29,28 @@
   padding: 5%;
   height: 200px;
 }
+
+#container:target {
+  background: blue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.btn{
+  text-decoration: none;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+}
+
+#btn_grid:focus, #btn_flex:focus{
+  background-color: black;
+}
