@@ -3,16 +3,16 @@
 
 .return_btn{
   padding: 15px;
-  background-color: black;
+  background-color: #0A2D40;
   color: white;
-  border-radius: 25px;
+  border-radius: 5px;
   border: none;
   margin: 20px;
 }
 
 #title_abécédaire{
   text-align: center;
-  color: orange;
+  color: #0A2D40;
 }
 
 /* -------- Grid -------- */
@@ -23,9 +23,10 @@
   grid-gap: 20px;
 }
 .box{
-  background: white;
-  border: solid 2px orange;
-  color: orange;
+  background: #E8E8E8;
+  /* border: solid 2px orange; */
+  border-radius: 10px;
+  color: white;
   padding: 5%;
   height: 200px;
 }
@@ -53,4 +54,19 @@ header{
 
 #btn_grid:focus, #btn_flex:focus{
   background-color: black;
+}
+
+/* -------------- IMGS -------------- */
+
+#boxA{
+  background: url("../images/lettreA.png");
+  background-repeat: no-repeat;
+}
+#boxB{
+  background: url("../images/lettreB.png");
+  background-repeat: no-repeat;
+}
+#boxC{
+  background: url("../images/lettreC.png");
+  background-repeat: no-repeat;
 }

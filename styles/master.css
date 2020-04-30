@@ -9,7 +9,7 @@ h2{
 }
 
 section {
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid #0A2D40;
   min-height: 65vh;
 }
 
@@ -18,7 +18,7 @@ section {
   line-height: 1.6;
   margin: 0;
   display: flex;
-  color: orange;
+  color: #0A2D40;
   transition: transform .4s cubic-bezier(.25, .1, .25, 1);
 }
 
@@ -54,7 +54,7 @@ section {
 }
 
 .header {
-  background: orange;
+  background: #0A2D40;
   width: 360px;
   padding: 0 20px;
   display:inline-block;
