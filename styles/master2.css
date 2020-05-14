@@ -28,11 +28,12 @@
   border-radius: 10px;
   color: white;
   padding: 5%;
+  margin: 10px;
   height: 200px;
 }
 
 #container:target {
-  background: blue;
+  background: white;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -58,15 +59,9 @@ header{
 
 /* -------------- IMGS -------------- */
 
-#boxA{
-  background: url("../images/lettreA.png");
-  background-repeat: no-repeat;
+.box{
+  background-color: #eee
 }
-#boxB{
-  background: url("../images/lettreB.png");
-  background-repeat: no-repeat;
-}
-#boxC{
-  background: url("../images/lettreC.png");
-  background-repeat: no-repeat;
+.box img{
+  height: 95%;
 }
