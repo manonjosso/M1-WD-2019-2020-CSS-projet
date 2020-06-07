@@ -13,6 +13,14 @@ section {
   min-height: 65vh;
 }
 
+#section02 img {
+  width: 40%;
+}
+
+#section03 img {
+  width: 30%;
+}
+
 #container {
   font-size: 21px;
   line-height: 1.6;

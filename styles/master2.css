@@ -61,7 +61,22 @@ header{
 
 .box{
   background-color: #eee
+  transition-property: background-color; /* Active la transition sur background-color */
+  transition-duration: 1s; /* La transition dure 1s */
 }
+
+.box:hover {
+  background-color: #CAE0DF;
+}
+
 .box img{
   height: 95%;
+  margin-left: 50px;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease; /* Transition de type ease */
+}
+
+.box img:hover{
+    transform: translateX(-20px); /* On déplace l'objet */
 }
